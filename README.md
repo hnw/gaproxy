@@ -92,7 +92,7 @@ curl -X POST -d "Broadcast breakfast is ready" http://localhost:8080
 ## Troubleshooting
 
 * **Broadcast not working:** If the "broadcast" command doesn't work, ensure your device (represented by the Model ID) is added to a "Home" in the Google Home app.
-* **Changing Language:** The language setting is fixed at container startup. If you want to send English commands, you must set `GAPROXY_LANGUAGE_CODE=en-US`.
+* **Changing Language:** The language setting is fixed at container startup. If you want to send Japanese commands, you must set `GAPROXY_LANGUAGE_CODE=ja-JP`.
 
 ## License
 
